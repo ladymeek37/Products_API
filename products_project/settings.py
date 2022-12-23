@@ -51,6 +51,10 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STRING': False
+}
+
 ROOT_URLCONF = 'products_project.urls'
 
 TEMPLATES = [
