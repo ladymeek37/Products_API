@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "3c4686f2-956f-49f3-b746-e7ae03e1517f",
+		"_postman_id": "ad6eb2b1-50f4-49df-a847-05d048c99c06",
 		"name": "Product_API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "24977349"
@@ -64,26 +64,35 @@
 			"response": []
 		},
 		{
-			"name": "Get_Car_By_Id",
+			"name": "Get_Product_By_Id",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": ""
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "Update_Product",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "Delete_Product",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
 			},
 			"response": []
 		}
